@@ -35,7 +35,13 @@
             container.classList.remove("small");
         }
     }
-    
+    function resizeDisplay() {
+        if(window.innerWidth >= 1440) {
+            canva.style.display = "flex";
+        } else {
+            canva.style.display = "block";
+        }
+    }
 
     bttn.addEventListener("focus", () => {
         errValidation();
@@ -55,8 +61,12 @@
     let susBtn = document.getElementsByClassName("activebttn")[0];
     susBtn.addEventListener("focus", () => {
         acanva.style.display = "none";
-        canva.style.display = "flex";
+        resizeDisplay();
         containerResize();
-    
+    });
+    window.addEventListener("resize", () => {
+        acanva.style.display = "none";
+        resizeDisplay();
+        containerResize();
     });
 }
