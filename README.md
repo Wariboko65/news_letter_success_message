@@ -4,8 +4,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Screenshot
 
-![](mobilePreview.png)
-![](mobileSuccess.png)
 ![](desktopPreview.png)
 ![](desktopSuccess.png)
 
