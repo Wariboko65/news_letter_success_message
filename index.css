@@ -187,7 +187,7 @@ li::before {
         box-sizing: border-box;
         flex: 45%;
         height: 95%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .card2 {
         box-sizing: border-box;
