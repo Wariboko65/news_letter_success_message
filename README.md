@@ -9,8 +9,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Front_End mentor solution](https://www.frontendmentor.io/solutions/newslettersuccessmessage-16Qvmye8ae)
+- Live Site URL: [news-letter-success-message](https://news-letter-success-message.vercel.app/)
 
 ## My process
 
