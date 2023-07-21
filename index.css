@@ -19,7 +19,7 @@ main {
 }
 .container {
     display: flex;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .firstForm {
     flex-shrink: 0;
@@ -187,7 +187,7 @@ li::before {
         box-sizing: border-box;
         flex: 45%;
         height: 95%;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .card2 {
         box-sizing: border-box;
