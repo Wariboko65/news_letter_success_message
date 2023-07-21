@@ -158,7 +158,7 @@ li::before {
         background: var(--white);
         border-radius: 1.25rem;
         box-shadow: 0 1.25rem 1.875rem 0 var(--darkGrey);
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .container.small {
         width: min(30%, 432px);
