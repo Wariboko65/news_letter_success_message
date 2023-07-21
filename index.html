@@ -6,46 +6,52 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link href="index.css" rel="stylesheet">
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <main>
     <div class="container">
-      <!-- Sign-up form start -->
-
-      Stay updated!
-
-      Join 60,000+ product managers receiving monthly updates on:
-
-      Product discovery and building what matters
-      Measuring to ensure updates are a success
-      And much more!
-
-      Email address
-      email@company.com
-
-      Subscribe to monthly newsletter
-
-      <!-- Sign-up form end -->
-
-      <!-- Success message start -->
-
-      Thanks for subscribing!
-
-      A confirmation email has been sent to ash@loremcompany.com. 
-      Please open it and click the button inside to confirm your subscription.
-
-      Dismiss message
-
-      <!-- Success message end -->
-  
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
+      <div class="firstForm">
+        <div class="card1">
+          <img class="mobileImg" src="/assets/images/illustration-sign-up-mobile.svg" alt="mobileDesign">
+          <img class="deskImg" src="/assets/images/illustration-sign-up-desktop.svg" alt="deskDesign">
+        </div>
+        <div class="card2">
+          <p class="header">Stay updated!</p>
+          <p class="sub">Join 60,000+ product managers receiving monthly updates on:</p>
+          <ul class="options">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+          <form class="name">
+            <div class="java">
+              <label for="mail">Email address</label>
+              <span id="errMessage"></span>
+            </div>
+            <input type="text" name="sendersEmail" id="mail" placeholder="email@company.com">
+            <button type="button" id="bttn">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
       </div>
+
+      <div class="activeForm">
+        <div class="text">
+          <img class="activeImg" src="/assets/images/icon-success.svg" alt="success">
+          <p class="header">Thanks for subscribing!</p>
+          <p class="sub">
+            A confirmation email has been sent to <span class="bold">ash@loremcompany.com.</span>
+            Please open it and click the button inside to confirm your subscription.
+          </p>
+        </div>
+        <form>
+          <button class="activebttn" type="button">Dismiss message</button>
+        </form>
+      </div> 
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
     </div>
   </main>
   <script src="index.js"></script>
