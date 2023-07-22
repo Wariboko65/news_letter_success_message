@@ -6,6 +6,7 @@
     let deskImg = document.getElementsByClassName("deskImg")[0];
     let container = document.getElementsByClassName("container")[0];
     let acanva = document.getElementsByClassName("activeForm")[0];
+    let mailValue = document.getElementsByClassName("bold")[0];
     function errValidation() {
         const emailReg = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     
@@ -21,6 +22,7 @@
         canva.style.display = "none";
         acanva.style.display = "flex";
         container.classList.add("small");
+        mailValue.innerHTML = mail.value;
         mail.value = "";
     }
     function inputFunction() {
