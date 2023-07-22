@@ -12,14 +12,6 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-.container {
-    display: flex;
-    overflow-x: hidden;
-}
-.firstForm {
-    flex-shrink: 0;
-    width: 100vw;
-}
 .card1 {
     width: 100%;
 }
@@ -134,7 +126,7 @@ li::before {
     height: 100vh;
     padding: 0.625rem 1.875rem;
     box-sizing: border-box;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-around;
 }
@@ -146,6 +138,8 @@ li::before {
     main {
         display: flex;
         flex-direction: column;
+        min-height: 100vh;
+        min-height: 100dvh;
         gap: 30px;
         align-items: center;
         justify-content: center;
