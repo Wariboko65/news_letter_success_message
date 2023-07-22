@@ -36,7 +36,7 @@
         }
     }
     function resizeDisplay() {
-        if(window.innerWidth >= 1000) {
+        if(window.innerWidth >= 1300) {
             canva.style.display = "flex";
         } else {
             canva.style.display = "block";
