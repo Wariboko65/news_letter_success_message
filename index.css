@@ -145,6 +145,8 @@ li::before {
 @media screen and (min-width: 1000px) {
     main {
         display: flex;
+        height: 100vh;
+        width: 100vw;
         flex-direction: column;
         gap: 30px;
         align-items: center;
